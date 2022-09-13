@@ -1,5 +1,6 @@
 Day 1 ( 8 PUZZLE PROBLEM )  :
 
+
 class Solution:
    def solve(self, board):
       dict = {}
@@ -59,7 +60,10 @@ matrix = [
    [6, 8, 0]
 ]
 print(ob.solve(matrix))
+
+
 DAY 1 ( 8 QUEEN )  :
+
 
 # Taking number of queens as input from user
 print ("Enter the number of queens")
@@ -94,7 +98,9 @@ N_queens(N)
 for i in board:
     print (i)
 
+
 DAY 1 ( WATER JUG ) :
+
 
 def pour(jug1, jug2):
     max1, max2, fill = 5, 7, 4  #Change maximum capacity and final capacity
@@ -118,8 +124,8 @@ print("JUG1\tJUG2")
 pour(0, 0)
 
 
-
 DAY 1 ( MISSONARIES – CANNIBAL PROBLEM )  :
+
 
 print("\n GAME STARTS ")
 print("\n Now the task is to move all 3 cannibals and 3 missionaries from left to right  ")
@@ -134,9 +140,7 @@ rC = 0
 userM = 0
 userC = 0
 k=0
-
 print("\n C C C M M M |...........|           \n")
-
 try:
     while(True):
         while(True):
@@ -146,17 +150,14 @@ try:
             if((uM==0) and (uC==0)):
                 print("Empty travel is not possible ")
                 print("re-emter the value : ")
-
             elif(((uM+uC)<= 2 )and((lm-uM)>=0) and ((lc-uC)>=0)):
                 break
             else:
                 print("Wrong input re enter the number : ")
-
         lm = (lm-uM)
         lc = (lc-uC)
         rM += uM
         rC += uC
-
         print("\n")
         for i in range(0,lm):
             print("M ",end=" ")
@@ -169,7 +170,6 @@ try:
             print("C ",end=" ")
         print("\n ")
         k +=1
-
         if(((lc==3) and lm==1)) or ((lc==3)and ((lm==2 ) and (lm==1)) or ((rC==3 )and (rM==1)) or ((rC==3)and (rM==2 )or (rC==2) and (rM==1))):
             print("cannibals eat missinories : \n you lost the game ")
             break
@@ -178,16 +178,13 @@ try:
             print("total attempts :")
             print(k)
             break
-
         while(True):
             print("right side -> left side river travel ")
             userM=int(input("enter the number of missionaries : "))
             userC= int(input("enter the number of cannibals : "))
-
             if((userM==0)and(userC==0)):
                 print("Empty travel not possible ")
                 print("re enter the number : ")
-
             elif(((userM+userC)<=2 )and( (rM-userM)>=0) and((rC-userC)>=0)):
                 break
 
@@ -219,7 +216,9 @@ try:
 except EOFError as e:
     print("\n invalid input ")
 
+
 DAY 1 ( CRIPT – ARITHAMITIC PROBLEM ) :
+
 
 public class SimpleSolver {
   static int eval(String q) {
@@ -275,13 +274,13 @@ public class SimpleSolver {
   }
 }
 
+
 DAY 1( VACCUM CLEANER PROBLEM ) :
 
-import random
 
+import random
 def display(room):
     print(room)
-
 room = [
     [1, 1, 1, 1],
     [1, 1, 1, 1],
@@ -320,15 +319,3 @@ pro= (100-((z/16)*100))
 print("Room is clean now, Thanks for using : 3710933")
 display(room)
 print('performance=',pro,'%')
-
-
-
-
-
-
-
- 
-
- 
-
-
