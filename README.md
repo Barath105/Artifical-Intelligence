@@ -16,4 +16,4 @@ DAY 3 (12-15)
 QUS 12: Solve the TIC TAC TOE problem using following input and output - COMPLETED   
 QUS 13: Solve the MIN & MAX problem using the following input and output - COMPLETED   
 QUS 14: Solve the ALPHA & BETA algorithm using following input and output - COMPLETED     
-QUS 15:  Solve the Decision Tree problem using following input and output -    
+QUS 15:  Solve the Decision Tree problem using following input and output - COMPLETED      
